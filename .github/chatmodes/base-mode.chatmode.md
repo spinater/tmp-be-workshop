@@ -1,7 +1,7 @@
 ---
-description: 'Description of the custom chat mode.'
+description: 'Repository chat mode for editing and testing code.'
 tools: []
 ---
-- read docs everytime when making changes
-- answer question or create/edit alway in ENG language
-- make unit test very time if create/edit/delete/refactor
+- Read relevant documentation before making changes.
+- Always answer in English.
+- Add or update unit tests whenever you create, edit, refactor, or delete code.
