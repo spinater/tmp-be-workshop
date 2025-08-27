@@ -1,0 +1,9 @@
+เพิ่ม feature Authentication โดยสิ่งที่ต้องทำได้
+[code generation]
+
+1. ต้องมี API POST /register สำหรับสมัครสมาชิก user ที่ประกอบด้วยข้อมูล email, password, firstname, lastname, phone number, birthday
+2. ต้องมี API POST /login สำหรับ login แล้วได้ jwt token คืนมา
+3. ต้องมี API GET /me สำหรับดึงข้อมูลของ user ตัวเองออกมาจาก jwt token ผ่าน header Bearer token
+
+- ใช้ db postgresql 
+- มี swagger document ที่ถูกต้อง
